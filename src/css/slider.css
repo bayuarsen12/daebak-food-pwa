@@ -1,0 +1,51 @@
+.parentSlider {
+  margin-bottom: 32px;
+}
+
+.sliders {
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
+  flex-wrap: nowrap;
+}
+.itemSlider {
+  width: 100%;
+  flex: 0 0 auto;
+}
+.sliders .itemSlider img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  max-width: 450px;
+}
+
+.sliders::-webkit-scrollbar {
+  display: none;
+}
+
+.dots-indicator {
+  display: flex;
+  position: relative;
+  z-index: 999;
+  align-items: center;
+  margin-top: -32px;
+  margin-left: 16px;
+}
+
+.dots {
+  background-color: darkgrey;
+  height: 7.5px;
+  width: 7.5px;
+  margin-right: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dotsActive {
+  background-color: #8b0c3c;
+  height: 7.5px;
+  width: 7.5px;
+  margin-right: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}

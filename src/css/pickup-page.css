@@ -1,0 +1,13 @@
+.container {
+  width: -webkit-fill-available;
+  max-width: 450px;
+  padding: 0px;
+  min-height: 100vh;
+  background: #fff;
+}
+
+.section-botnav {
+  display: flex !important;
+  justify-content: center;
+  width: 100%;
+}

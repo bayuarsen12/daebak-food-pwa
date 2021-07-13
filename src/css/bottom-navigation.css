@@ -1,0 +1,42 @@
+.parent-botnav {
+  position: fixed;
+  bottom: 0px;
+  z-index: 200;
+  width: 100%;
+  background: #fff;
+  box-shadow: rgb(108 114 124 / 16%) 0px -2px 4px 0px;
+  max-width: 450px;
+}
+.parent-botnav > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: -webkit-fill-available;
+  padding: 8px 16px;
+}
+
+.item-botnav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.item-botnav p {
+  margin-top: 8px;
+}
+.item-botnav path {
+  fill: grey;
+}
+.NavActive path {
+  fill: #8b0c3c;
+}
+
+.item-botnav .search-icon path {
+  fill: none;
+  stroke: grey;
+}
+.NavActive.item-botnav .search-icon path {
+  fill: none;
+  stroke: #8b0c3c;
+}

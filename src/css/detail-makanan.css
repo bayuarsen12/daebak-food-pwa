@@ -1,0 +1,139 @@
+.container {
+  width: -webkit-fill-available;
+  max-width: 450px;
+  padding: 0px;
+  min-height: 100vh;
+  background: #fafafa;
+}
+
+.image-food {
+  background: url("https://i1.wp.com/resepkoki.id/wp-content/uploads/2019/08/Resep-Tteokbokki.jpg?fit=1219%2C1524&ssl=1")
+    center no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  padding-bottom: 8px;
+  background: #fff;
+}
+
+.row p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.food-description {
+  padding: 16px;
+  padding-top: 0px;
+  background: #fff;
+}
+
+.food-description p {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.food-variation {
+  padding: 16px;
+  margin-top: 8px;
+  background: #fff;
+}
+
+.food-variation h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.parent-select div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.parent-select div span {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-left: 5px;
+  text-transform: uppercase;
+}
+
+.food-notes {
+  padding: 16px;
+  margin-top: 8px;
+  background: #fff;
+}
+
+.food-notes h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.food-notes textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.wraper-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.wraper-buttons button {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: none;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+  color: #8b0c3c;
+  margin: 0px 16px;
+}
+
+.bottom-food {
+  position: fixed;
+  bottom: 0px;
+  padding: 16px;
+  width: -webkit-fill-available;
+  max-width: 450px;
+  box-shadow: rgb(108 114 124 / 16%) 0px -2px 4px 0px;
+  z-index: 999;
+}
+
+.bottom-food p {
+  font-size: 12px;
+}
+
+.bottom-food button {
+  width: 100%;
+  background: #8b0c3c;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  height: 50px;
+  text-align: center;
+  border: unset;
+  border-radius: 6px;
+  margin-top: 8px;
+}
+
+.parent-bottom {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

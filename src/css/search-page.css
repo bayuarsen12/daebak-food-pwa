@@ -1,0 +1,101 @@
+.container {
+  width: -webkit-fill-available;
+  max-width: 450px;
+  padding: 0px;
+  min-height: 100vh;
+  background: #fff;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: -webkit-fill-available;
+  margin-top: 24px;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding: 16px;
+  background: #fafafa;
+}
+
+.search-food {
+  border: unset;
+  background-color: #fafafa;
+}
+
+.search-food:focus {
+  outline: none;
+}
+
+.resto-results {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+.filter-results {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  border-radius: 16px;
+  background: #fafafa;
+  margin-right: 8px;
+}
+
+.filter span {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.urutkan {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  border-radius: 16px;
+  background: #fafafa;
+}
+
+.urutkan span {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  border-radius: 16px;
+  background: #fafafa;
+  margin-left: 8px;
+}
+
+.rating span {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.restaurants {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.section-botnav {
+  display: flex !important;
+  justify-content: center;
+  width: 100%;
+}
